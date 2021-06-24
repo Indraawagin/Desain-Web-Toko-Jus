@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Jusku</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header2" id="header">
+        <nav class="nav">
+            <div class="nav_center container">
+                <div class="logo">
+                    <h1>Jusku</h1>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+
+    <main>
+       <!-- Cart Items -->
+  <div class="container-md cart">
+    <table>
+      <tr>
+        <th>Produk</th>
+        <th>Jumlah</th>
+        <th>Subtotal</th>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="./images/product11.png" alt="">
+            <div>
+              <p>Jus Semangka</p>
+              <span>Harga: Rp.10.000</span>
+              <br />
+              <a href="#">remove</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="2" min="1"></td>
+        <td>Rp.20.000</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="./images/product10.png" alt="">
+            <div>
+              <p>Jus Apel</p>
+              <span>Harga: Rp.10.000</span>
+              <br />
+              <a href="#">remove</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="3" min="1"></td>
+        <td>Rp.30.000</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="./images/product14.png" alt="">
+            <div>
+              <p>Jus Wortel</p>
+              <span>Harga: Rp.10.000</span>
+              <br />
+              <a href="#">remove</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1"></td>
+        <td>Rp.10.000</td>
+      </tr>
+    </table>
+
+    <div class="total-price">
+      <table>
+        <tr>
+          <td>Subtotal</td>
+          <td>Rp.60.000</td>
+        </tr>
+        <tr>
+          <td>Tax</td>
+          <td>Rp.6.000</td>
+        </tr>
+        <tr>
+          <td>Total</td>
+          <td>Rp.66.000</td>
+        </tr>
+      </table>
+      <div class="btn_flex">
+        <a href="#" class="button btn_produk">Checkout</a>
+        <a href="produk-detail.html" class="button btn_kembali">Kembali</a>
+      </div>
+    </div>
+
+  </div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer" class="section footer">
+        <div class="container">
+            <div class="footer_top">
+                <div class="footer-top_box">
+                    <h3>TAMBAHAN</h3>
+                    <a href="#">Merek</a>
+                    <a href="#">Sertifikat Hadiah</a>
+                    <a href="#">Afiliasi</a>
+                    <a href="#">Spesial</a>
+                </div>
+                <div class="footer-top_box">
+                    <h3>INFORMASI</h3>
+                    <a href="#">Tentang Kami</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Hubungi Kami</a>
+                </div>
+                <div class="footer-top_box">
+                    <h3>AKUN SAYA</h3>
+                    <a href="#">Akun Saya</a>
+                    <a href="#">Riwayat Pemesanan</a>
+                    <a href="#">Daftar Keinginan</a>
+                    <a href="#">Newsletter</a>
+                    <a href="#">Retur</a>
+                </div>
+                <div class="footer-top_box">
+                    <h3>HUBUNGI KAMI</h3>
+                    <div>
+                        <span>
+                            <svg>
+                                <use xlink:href="./images/sprite.svg#icon-location"></use>
+                            </svg>
+                        </span>
+                        Denpasar
+                    </div>
+                    <div>
+                        <span>
+                            <svg>
+                                <use xlink:href="./images/sprite.svg#icon-envelop"></use>
+                            </svg>
+                        </span>
+                        jusku@gmail.com
+                    </div>
+                    <div>
+                        <span>
+                            <svg>
+                                <use xlink:href="./images/sprite.svg#icon-phone"></use>
+                            </svg>
+                        </span>
+                        (0361) 93430
+                    </div>
+                    <div>
+                        <span>
+                            <svg>
+                                <use xlink:href="./images/sprite.svg#icon-paperplane"></use>
+                            </svg>
+                        </span>
+                        Denpasar, Bali
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
